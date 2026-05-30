@@ -1,0 +1,14 @@
+
+
+.careBanner {
+  height: fit-content;
+  padding: 0 !important;
+
+  img {
+    width: 100%;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

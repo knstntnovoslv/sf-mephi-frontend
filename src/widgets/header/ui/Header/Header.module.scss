@@ -1,0 +1,60 @@
+
+.wrap {
+  width: 100%;
+  box-shadow: 0 2px 0 #EFF2F2;
+  margin-bottom: 64px;
+}
+
+.header {
+  max-width: 1200px;
+  width: 100vw;
+  padding: 0 30px;
+  margin: 0 auto;
+
+  height: var(--header-height);
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+}
+
+.btn {
+  position: absolute !important;
+  right: 30px;
+}
+
+.menu {
+  margin-left: 96px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  width: fit-content;
+}
+
+.menuIcon {
+  position: absolute !important;
+  right: 30px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  & > * {
+    color: #03B2A5;
+  }
+}
+
+.breadCrumbs {
+  position: absolute;
+  left: 30px;
+  bottom: calc(-16px - 1.5em);
+}

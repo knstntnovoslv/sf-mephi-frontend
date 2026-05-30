@@ -1,0 +1,23 @@
+
+
+.filters {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 24px 0;
+  width: 100%;
+
+  & > * {
+    &:hover {
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+  @media (pointer:none), (pointer:coarse) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  } 
+}

@@ -1,0 +1,89 @@
+
+
+.banner {
+
+  border: 1px solid #DEDEDE;
+  position: relative;
+
+  .top {
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 16px;
+    box-shadow: 0 1px 0 #DEDEDE;
+
+    & > * {
+      width: 100%;
+    }
+
+    .label {
+      font-weight: lighter;
+    }
+
+    img {
+      border-radius: 100%;
+      margin-bottom: 16px;
+      width: 120px;
+    }
+
+    .info {
+      margin-top: 4px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      gap: 8px;
+
+      * {
+        color: #A2A7B1;
+      }
+
+      .circle {
+        height: 4px;
+        width: 4px;
+        border-radius: 100%;
+        background-color: #A2A7B1;
+      }
+    }
+  }
+
+  .tagsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+    z-index: 2;
+
+    .tag {
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      padding: 0 6px;
+      border-radius: 6px;
+      height: 24px;
+      align-items: center;
+      width: fit-content;
+
+      background-color: rgba(243, 244, 248, 0.7);
+    }
+  }
+
+  .bottom {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+
+    
+  }
+
+}
